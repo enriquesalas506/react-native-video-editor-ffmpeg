@@ -23,15 +23,16 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import MainScreen from './components/MainScreen';
 
 const App: () => React$Node = () => {
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
+    <View>
 
-      </SafeAreaView>
-    </>
+      <MainScreen></MainScreen>
+
+
+    </View>
   );
 };
 
